@@ -9,7 +9,7 @@
 }
 .buttonUi:hover{
     color: black;
-    background-color: var(--colors-secondary-900);
+    background-color: var(--colors-secondary-100);
 }
 .buttonWhats{
     width: 100%;
