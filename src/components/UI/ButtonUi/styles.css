@@ -1,0 +1,26 @@
+.buttonUi{
+    width: 100%;
+    background-color: var(--colors-secondary-500);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+}
+.buttonUi:hover{
+    color: black;
+    background-color: var(--colors-secondary-900);
+}
+.buttonWhats{
+    width: 100%;
+    background-color: #1DD000;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+}
+.buttonArrow{
+    width: 100%;
+    height: 100%;
+}

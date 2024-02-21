@@ -1,0 +1,84 @@
+.containerServices {
+    width: 100%;
+    height: 48em;
+    background-color: var(--colors-secondary-400);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.servicesCard {
+    width: 100%;
+    height: 28em;
+    padding: 36px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-bottom: 2em;
+}
+
+.servicesComponent {
+    width: 18%;
+    height: 100%;
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--colors-secondary-300);
+}
+.servicesComponent h3{
+    color: white;
+    font-size: 24px;
+    font-family: istok web;
+}
+.servicesComponent svg{
+    width: 48px;
+    height: 48px;
+    color: var(--colors-secondary-100);
+    margin-top: 16px;
+}
+.textSvg{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.servicesComponent:nth-child(2) {
+    margin-right: 128px;
+}
+.buttonUiServices{
+    position: absolute;
+    width: 48%;
+    bottom: -3%;
+}
+.textDescriptionServices{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.textDescriptionServices h1 {
+    margin-bottom: 16px;
+    color: var(--colors-secondary-100);
+}
+.textDescriptionServices h2 {
+    margin-bottom: 16px;
+    color: var(--colors-secondary-100);
+}
+.buttonWhatsComponent{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.buttonWhatsCard{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+    width: 36%;
+}

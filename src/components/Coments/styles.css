@@ -1,0 +1,108 @@
+.containerComents {
+    width: 100%;
+    height: 36em;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--colors-secondary-200);
+}
+
+.cardcoments {
+    width: 76%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2em;
+    overflow: hidden;
+}
+.clientLogo{
+    width: 4em;
+    height: 4em;
+    border-radius: 100%;
+    background-image: url('../../image/perfil10.jpg');
+    background-size: cover;
+}
+.titleComents {
+    margin-bottom: 4em;
+}
+
+.titleComents h1 {
+    font-size: 36px;
+    font-weight: 400;
+}
+
+.clientCards {
+    width: 100%;
+    display: flex;
+    transition: all .3s ease-in-out;
+}
+.buttonCards{
+    width: 84%;
+    top: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: absolute;
+}
+.buttonCards svg{
+    width: 36px;
+    height: 36px;
+    transition: all .3s ease-in-out;
+}
+.buttonCards svg:hover{
+    transform: scale(1.5);
+    cursor: pointer;
+}
+.comentsItems {
+    width: 100%;
+    height: 100%;
+    margin: 24px;
+    border-radius: 8px;
+    padding: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--colors-neutral-50);
+}
+
+.titleCardCometns {
+    width: 16em;;
+    height: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.titleCardCometns h2 {
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.starComents {
+    width: 100%;
+    height: 15%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.starComents svg {
+    width: 18px;
+    height: 18px;
+    margin: 4px 0 0 0 ;
+    color: yellow;
+}
+
+.comentsText {
+    padding: 8px;
+}
+
+.comentsText h2 {
+    font-size: 14px;
+    font-weight: 400;
+}
+.transition-fade {
+    transition: transform .5s ease;
+}

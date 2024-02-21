@@ -1,0 +1,110 @@
+footer{
+    width: 100%;
+    height: 18tggem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    flex-direction: row;
+    padding: 16px;
+}
+.footerComponets{
+    width: 80%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+}
+.contactsCard{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.titleFooter{
+    width: 100%;
+    height: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.titleFooter h1{
+    color: white;
+    font-size: 28px;
+    font-weight: 400;
+    font-family: instok web;
+}
+.textFooter{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-left: 35%;
+}
+.subTextIcons{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    margin-bottom: 16px;
+}
+.subTextIcons span{
+    font-size: 16px;
+    font-weight: 300;
+    margin-left: 8px;
+    color: var( --colors-neutral-100);
+}
+.subTextIcons svg{
+    width: 24px;
+    height: 24px;
+    color: var(--colors-secondary-500);
+}
+.footerItems{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    padding: 24px;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 16px;
+}
+.footerItems h1{
+    font-size: 24px;
+    color: var(--colors-neutral-100);
+    margin-bottom: 16px;
+    font-family: instok web;
+    font-weight: 400;
+}
+.footerItems h2{
+    font-size: 18px;
+    color: var(--colors-neutral-100);
+    margin-bottom: 24px;
+    font-family: instok web;
+    font-weight: 400;
+}
+.footerItems span{
+    font-size: 16px;
+    color: var(--colors-neutral-100);
+    margin-bottom: 24px;
+    font-family: instok web;
+    font-weight: 400;
+}
+.buttonFooter{
+    width: 36%;
+    font-size: 16px;
+    font-weight: 300;
+    font-family: instok web;
+}
+.copyright{
+    width: 100%;
+    height: 2em;
+    background-color: black;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    bottom: 0;
+}
+.copyright h2{
+    font-size: 16px;
+    color: var(--colors-neutral-100);
+    font-family: instok web;
+}

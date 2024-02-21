@@ -1,0 +1,52 @@
+.container{
+    width: 100%;
+    height: 5em;
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: var(--colors-neutral-50);
+}
+.logo{
+    width: 10%;
+    height: 100%;
+    background-image: url('../../image/logo.jpg');
+    background-size: cover;
+    background-position: center;
+}
+.navList{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.navList ul{
+    display: flex;
+    flex-direction: row;
+    
+}
+.navList li{
+    margin-right: 16px;
+    list-style: none;
+    font-family: Istok Web;
+    font-weight: 400;
+    font-size: 16px;
+}
+.navList li a{
+   color: black;
+    font-family: Istok Web;
+    font-weight: 400;
+    font-size: 16px;
+}
+.socialCards{
+    width: 8%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.socialCards svg{
+    width: 36px;
+    height: 36px;
+}
