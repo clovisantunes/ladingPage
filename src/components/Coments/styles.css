@@ -21,16 +21,19 @@
     width: 4em;
     height: 4em;
     border-radius: 100%;
-    background-image: url('../../image/perfil10.jpg');
+    background-image: url('../../../public/image/perfil10.jpg');
     background-size: cover;
 }
 .titleComents {
     margin-bottom: 4em;
+    text-align: center;
+
 }
 
 .titleComents h1 {
     font-size: 36px;
     font-weight: 400;
+    color: black;
 }
 
 .clientCards {
@@ -49,6 +52,8 @@
 .buttonCards svg{
     width: 36px;
     height: 36px;
+    position: absolute;
+    color: black;
     transition: all .3s ease-in-out;
 }
 .buttonCards svg:hover{
@@ -78,6 +83,7 @@
 .titleCardCometns h2 {
     font-size: 18px;
     font-weight: 400;
+    color: black;
 }
 
 .starComents {
@@ -102,7 +108,11 @@
 .comentsText h2 {
     font-size: 14px;
     font-weight: 400;
+    color: black;
 }
 .transition-fade {
     transition: transform .5s ease;
+}
+@media (max-width:780px) {
+    
 }

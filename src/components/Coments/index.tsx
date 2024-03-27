@@ -7,6 +7,7 @@ import { ButtonArrows } from "../UI/ButtonUi/index.tsx";
 import { IoIosArrowBack } from "react-icons/io";
 import { IoIosArrowForward } from "react-icons/io";
 
+
 export default function Coments(){
     const [currentPosition, setCurrentPosition] = useState(0);
     const [transformX, setTransformX] = useState(0);
@@ -15,25 +16,25 @@ export default function Coments(){
         {
             id: 1,
             name: "Client Exemple 1",
-            perfil: 'http://localhost:3000/static/media/perfil1.33debd5b5faa4628fa5d.jpg',
+            perfil: "../../image/perfil1.jpg",
             comment: "Experimentei um atendimento jurídico verdadeiramente excepcional! Os profissionais desta advogacia são altamente capacitados e dedicados, não poupando esforços para nos auxiliar de maneira ética e eficiente. Sua competência e atenção aos detalhes são verdadeiramente notáveis."
         },
         {
             id: 2,
             name: "Client Exemple 2",
-            perfil: 'http://localhost:3000/static/media/perfil2.f681e162818aad639c73.webp',
+            perfil: '../../image/perfil2.webp',
             comment: "Outro comentário impressionante sobre o atendimento exemplar que recebi desta equipe jurídica. Profissionais comprometidos e eficientes em cada interação."
         },
         {
             id: 3,
             name: "Client Exemple 3",
-            perfil: 'http://localhost:3000/static/media/perfil3.5fe2a594185817eaa69d.png',
+            perfil: '../../image/perfil3.png',
             comment: "Mais um depoimento elogiando a qualidade do serviço jurídico prestado por esta firma. Profissionais competentes e atenciosos, sempre garantindo assistência de alta qualidade."
         },
         {
             id: 4,
             name: "Client Exemple 4",
-            perfil: 'http://localhost:3000/static/media/perfil4.a1a38b8ce07f9ef62fb0.jpg',
+            perfil: '../../image/perfil4.jpg',
             comment: "Outro relato positivo sobre o atendimento excepcional dessa advogacia. Profissionais comprometidos em oferecer suporte jurídico com eficiência e respeito."
         },
         {
@@ -45,13 +46,13 @@ export default function Coments(){
         {
             id: 6,
             name: "Client Exemple 6",
-            perfil: 'http://localhost:3000/static/media/perfil6.612fdf68bc0e1d21dd11.jpeg)',
+            perfil: '../../image/perfil6.jpeg)',
             comment: "Comentário ressaltando a excelência no serviço prestado por esta equipe jurídica. Profissionais altamente competentes, demonstrando comprometimento e profissionalismo."
         },
         {
             id: 7,
             name: "Client Exemple 7",
-            perfil: 'http://localhost:3000/static/media/perfil7.b6e932c16dc44705d649.jpg',
+            perfil: '../../image/perfil7.jpg',
             comment: "Experimentei um atendimento jurídico verdadeiramente excepcional! Os profissionais desta advogacia são altamente capacitados e dedicados, não poupando esforços dentro da lei para nos ajudar."
         },
         {
@@ -63,7 +64,7 @@ export default function Coments(){
         {
             id: 9,
             name: "Client Exemple 9",
-            perfil: 'http://localhost:3000/static/media/perfil9.2f704be2b3b58389e552.jpg',
+            perfil: '../../image/perfil9.jpg',
             comment: "Depoimento destacando a qualidade do atendimento jurídico recebido. Profissionais dedicados e atenciosos, proporcionando uma experiência de alto nível."
         },
         {

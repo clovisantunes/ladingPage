@@ -1,4 +1,4 @@
-.container{
+.containerNavbar{
     width: 100%;
     height: 5em;
     
@@ -8,17 +8,20 @@
     background-color: var(--colors-neutral-50);
 }
 .logo{
-    width: 10%;
+    width: 25%;
     height: 100%;
-    background-image: url('../../image/logo.jpg');
-    background-size: cover;
+    background-size: contain;
     background-position: center;
+    background-repeat: no-repeat;
+    background-image: url('../../../public/image/logo.jpg');
 }
 .navList{
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
+    margin-left: 40%;
+    width: 35%;
 }
 .navList ul{
     display: flex;
@@ -45,8 +48,17 @@
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
+    margin-right: 10%;
+    margin-left: 4%;
 }
 .socialCards svg{
     width: 36px;
     height: 36px;
+    color: #000;
+}
+@media (max-width:1080px) {
+    .navList{
+        margin-left: 5%;
+     
+    }
 }

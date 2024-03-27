@@ -5,41 +5,36 @@ import { ButtonUi } from "../UI/ButtonUi/index.tsx";
 
 export default function ContactForm() {
   return (
-    <div className="containerForm">
-      <div className="titleForm">
-        <TitleText text="Entre em contato!" />
-      </div>
-        <form>
-      <div className="formContainer">
-          <div className="nameForm">
-            <label >
-              Nome:
-            </label>
-              <input type="text" name="nome" />
-            <label>
-              Sobrenome:
-            </label>
-              <input type="text" name="sobrenome" />
-          </div>
-          <div className="textForm">
-            <label>
-              Email:
-            </label>
-              <input type="email" name="email" />
-            <label>
-              Mensagem:
-            </label>
-              <textarea name="Sua mensagem:"></textarea>
-          </div>
+    <>
+      <div className="containerForm">
+        <div className="titleForm">
+          <TitleText text="Entre em contato!" />
+        </div>
+      <div className="contactCard">
 
-      </div>
-                </form>
-          <div className="buttonForm">
-            <ButtonUi 
-                height="48px"
-                text="Enviar"
-                />
+      
+        <div className="text">
+          <span className="text1">Nós podemos te ajudar! Para um melhor atendimento</span>
+          <span className="text2">
+            Fale conosco para dar o melhor atendimento, solicitamos o
+            preenchimento completo do formulário ao lado
+          </span>
+        </div>
+        <form>
+          <div className="formContainer">
+            <div className="nameForm">
+              <input type="text" name="nome" placeholder="Nome Completo" />
+              <input type="text" name="Email" placeholder="Email" />
+              <input type="email" name="Telefone:" placeholder="Telefone"/>
+              <textarea name="Sua mensagem:" placeholder="Mensagem"></textarea>
+        <div className="buttonForm">
+          <ButtonUi height="48px" text="Enviar" />
+        </div>
+            </div>
           </div>
-    </div>
+        </form>
+      </div>
+      </div>
+    </>
   );
 }

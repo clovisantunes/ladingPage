@@ -22,7 +22,7 @@ const texts = {
     icon: <FaWhatsapp />,
   },
   instagram: {
-    name: "Lorem_ipsum",
+    name: "Renova_Advocacia",
     icon: <CiInstagram />,
   },
 };
@@ -31,10 +31,10 @@ export default function Footer() {
   return (
     <footer>
       <div className="footerComponets">
-        <div className="contactsCard">
-          <div className="titleFooter">
-            <TitleText text="Contato" />
+          <div className="logoFooter">
+
           </div>
+        <div className="contactsCard">
           <div className="textFooter">
             {Object.keys(texts).map((key) => (
               <div key={key} className="subTextIcons">

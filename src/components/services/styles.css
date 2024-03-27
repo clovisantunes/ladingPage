@@ -1,31 +1,42 @@
 .containerServices {
     width: 100%;
-    height: 48em;
-    background-color: var(--colors-secondary-400);
+    height: 100%;
+    background-color: #F0F0F0;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
 }
-
-.servicesCard {
-    width: 100%;
-    height: 28em;
-    padding: 36px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    margin-bottom: 2em;
+.containerServices h1{
+    margin: 1em 0 1em 0;
+    color: black;
 }
-
-.servicesComponent {
-    width: 18%;
+.servicesCard {
+    width: 80%;
     height: 100%;
+    padding: 36px;
+    display: grid;
+    grid-template-columns:repeat(4, minmax(100px, 1fr));
+    gap: 2em;
+    align-items: center;
+    margin-bottom: 2em;
+    margin-left: 4%;
+}
+.servicesComponent:nth-child(2),
+.servicesComponent:nth-child(6) {
+  gap: 8em;
+}
+.servicesComponent {
+    width: 80%;
+    height: 20em;
+    padding: 16px;
+    border-radius: 8px;
     display: flex;
     position: relative;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    text-align: center;
     background-color: var(--colors-secondary-300);
 }
 .servicesComponent h3{
@@ -63,22 +74,38 @@
 }
 .textDescriptionServices h1 {
     margin-bottom: 16px;
-    color: var(--colors-secondary-100);
+    color: #413F3F
 }
 .textDescriptionServices h2 {
     margin-bottom: 16px;
-    color: var(--colors-secondary-100);
+    color: #413F3F;
+    text-align: center;
 }
 .buttonWhatsComponent{
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-bottom: 2em;
 }
 .buttonWhatsCard{
     display: flex;
     align-items: center;
     justify-content: center;
     font-size: 12px;
-    width: 36%;
+    width: 30%;
+}
+
+@media (max-width:780px) {
+    .servicesCard {
+        width: 80%;
+        height: 100%;
+        padding: 36px;
+        display: grid;
+        grid-template-columns:repeat(2, minmax(100px, 1fr));
+        gap: 1em;
+        align-items: center;
+        margin-bottom: 2em;
+        margin-left: 4%;
+    }
 }

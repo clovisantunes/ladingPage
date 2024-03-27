@@ -5,7 +5,7 @@ import { CiInstagram } from "react-icons/ci";
 
 export default function NavBar() {
   return (
-    <div className="container">
+    <div className="containerNavbar">
       <div className="logo"></div>
       <div className="navList">
         <ul>
@@ -27,8 +27,8 @@ export default function NavBar() {
         </ul>
       </div>
       <div className="socialCards">
-        <FaWhatsapp width={24} height={24} />
-        <CiInstagram />
+        <FaWhatsapp width={24} height={24} color="#25D366"/>
+        <CiInstagram className="instagram" />
       </div>
     </div>
   );

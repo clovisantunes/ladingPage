@@ -13,7 +13,11 @@ export default function Services() {
         penal: "Direito Penal",
         medico: "Direito Médico",
         sucessao: "Direito das Sucessões",
-        civil: "Direito Civil"
+        civil: "Direito Civil",
+        imobiliario: "Direito Imobiliário",
+        trabalhista: "Direito Trabalhista",
+        digital: "Direito Digital",
+        autoral: "Direito autoral"
     }
     const icons = {
         penal: <GiHandcuffs />,
@@ -24,6 +28,9 @@ export default function Services() {
 
     return (
         <div className='containerServices'>
+            <TitleText 
+                text='Nossas especialidades'
+            />
             <div className='servicesCard'>
                 {Object.keys(titles).map((key) => (
                     <div className='servicesComponent' key={key}>
@@ -33,7 +40,7 @@ export default function Services() {
                         </div>
                         <div className='buttonUiServices'>
                             <ButtonUi 
-                                height='28px'
+                                height='20%'
                                 text='veja mais'
                             />
                         </div>
@@ -52,7 +59,7 @@ export default function Services() {
                     <div className='buttonWhatsComponent'>
                         <div className='buttonWhatsCard'>
                             <ButtonWhats 
-                                height='28px'
+                                height='20%'
                                 text='Entre em contato pelo whatsapp'
                             />
                         </div>
