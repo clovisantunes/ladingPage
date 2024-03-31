@@ -69,12 +69,14 @@
     height: 100%;
     display: flex;
     flex-direction: column;
+    text-align: center;
     align-items: center;
     justify-content: center;
 }
 .textDescriptionServices h1 {
     margin-bottom: 16px;
-    color: #413F3F
+    color: #413F3F;
+    text-align: center;
 }
 .textDescriptionServices h2 {
     margin-bottom: 16px;
@@ -107,5 +109,10 @@
         align-items: center;
         margin-bottom: 2em;
         margin-left: 4%;
+    }
+}
+@media (max-width:480px) {
+    .servicesCard {
+        grid-template-columns:repeat(1, minmax(100px, 1fr));
     }
 }

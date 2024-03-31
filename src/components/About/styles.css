@@ -63,3 +63,8 @@
         margin-left: 10%;
     }
 }
+@media (max-width:480px) {
+    .buttonCardAbout{
+        width: 80%;
+    }
+}

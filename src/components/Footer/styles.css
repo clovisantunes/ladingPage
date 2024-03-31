@@ -144,6 +144,9 @@ footer{
     .subTextIcons{
         width: 100%;
     }
+    .buttonFooter{
+        width: 80%;
+    }
     .footerItems{
         width: 100%;
     }

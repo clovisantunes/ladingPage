@@ -114,5 +114,14 @@
     transition: transform .5s ease;
 }
 @media (max-width:780px) {
-    
+    .containerComents {
+        height: 100%;
+    }
+    .comentsItems {
+        width: 80%;
+    }
+    .buttonArrow{
+        position: absolute;
+    z-index: 8;
+    }
 }
