@@ -7,6 +7,10 @@ import { LiaBalanceScaleSolid } from "react-icons/lia";
 import {ButtonUi, ButtonWhats} from '../UI/ButtonUi/index.tsx';
 import TitleText from '../UI/titleText/index.tsx';
 import SubText from '../UI/SubText/index.tsx';
+import { FaHouse } from "react-icons/fa6";
+import { MdOutlineWorkOutline } from "react-icons/md";
+import { FaComputer } from "react-icons/fa6";
+import { PiCopyright } from "react-icons/pi";
 
 export default function Services() {
     const titles = {
@@ -23,7 +27,11 @@ export default function Services() {
         penal: <GiHandcuffs />,
         medico: <PiStethoscopeDuotone />,
         sucessao: <AiFillBank />,
-        civil: <LiaBalanceScaleSolid />
+        civil: <LiaBalanceScaleSolid />,
+        imobiliario: <FaHouse  />,
+        trabalhista:<MdOutlineWorkOutline /> ,
+        digital: <FaComputer />,
+        autoral:<PiCopyright /> 
     }
 
     return (
