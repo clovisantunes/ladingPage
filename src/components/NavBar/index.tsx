@@ -26,6 +26,11 @@ export default function NavBar() {
           </li>
         </ul>
       </div>
+      <div className="lineCard">
+                <div className="line" />
+                <div className="line" />
+                <div className="line" />
+            </div>
       <div className="socialCards">
         <FaWhatsapp width={24} height={24} color="#25D366"/>
         <CiInstagram className="instagram" />

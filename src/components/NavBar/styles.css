@@ -1,7 +1,8 @@
 .containerNavbar{
     width: 100%;
     height: 5em;
-    
+    align-items: center;
+    justify-content: center;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -9,7 +10,7 @@
 }
 .logo{
     width: 25%;
-    height: 100%;
+    height: 80%;
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
@@ -56,9 +57,49 @@
     height: 36px;
     color: #000;
 }
+
+.lineCard{
+    width: 10%;
+    height: 100%;
+
+    padding: 4px;
+    margin-right: 16px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    display: none;
+}
+.line{
+    width: 50%;
+    height: 3px;
+    margin-bottom: 4px;
+    background-color: black;
+}
 @media (max-width:1080px) {
     .navList{
         margin-left: 5%;
      
+    }
+    .navbar_card{
+        justify-content: space-between;
+        padding-left: 2em;
+    }
+    .navList{
+        display: none;
+    }
+    .buttonCard{
+        display: none;
+    }
+    .lineCard{
+        display: flex;
+    }
+    .socialCards{
+        display: none;
+    }
+}
+@media (max-width:480px) {
+  
+    .logo{
+        width: 10%;
     }
 }
