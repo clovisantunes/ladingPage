@@ -5,7 +5,7 @@
     position: relative;
     justify-content: center;
     align-items: center;
-    background-color: var(--colors-secondary-200);
+    background-image: url('../../image/background.avif');
 }
 
 .cardcoments {
@@ -33,7 +33,7 @@
 .titleComents h1 {
     font-size: 36px;
     font-weight: 400;
-    color: black;
+    color: var(--colors-secondary-100);
 }
 
 .clientCards {
@@ -53,7 +53,7 @@
     width: 36px;
     height: 36px;
     position: absolute;
-    color: black;
+    color: var(--colors-secondary-100);
     transition: all .3s ease-in-out;
 }
 .buttonCards svg:hover{

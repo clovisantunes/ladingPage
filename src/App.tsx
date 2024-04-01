@@ -16,8 +16,8 @@ function App() {
       <Main />
       <Services />
       <About />
-      <Coments />
       <ContactForm />
+      <Coments />
       <Footer />
     </div>
   );
