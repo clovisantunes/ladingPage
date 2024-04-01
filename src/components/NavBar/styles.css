@@ -9,12 +9,12 @@
     background-color: var(--colors-neutral-50);
 }
 .logo{
-    width: 25%;
-    height: 80%;
+    width: 30%;
+    height: 100%;
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
-    background-image: url('../../../public/image/logo.jpg');
+    background-image: url('../../image//logo.jpg');
 }
 .navList{
     display: flex;
