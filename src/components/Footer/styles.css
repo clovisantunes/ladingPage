@@ -62,7 +62,6 @@ footer{
 .subTextIcons span{
     font-size: 16px;
     font-weight: 300;
-    margin-left: 8px;
     color: var(--colors-secondary-100);
 }
 .subTextIcons svg{
@@ -126,6 +125,9 @@ footer{
     .footerComponets{
         flex-direction: column;
     }
+    .textFooter{
+        width: 100%;
+    }
     .logoFooter{
         width: 100%;
         display: flex;
@@ -145,6 +147,9 @@ footer{
     }
     .subTextIcons{
         width: 100%;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
     }
     .buttonFooter{
         width: 80%;
