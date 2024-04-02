@@ -67,7 +67,7 @@ export default function Services() {
                     <div className='buttonWhatsComponent'>
                         <div className='buttonWhatsCard'>
                             <ButtonWhats 
-                                height='20%'
+                                height='3em'
                                 text='Entre em contato pelo whatsapp'
                             />
                         </div>
