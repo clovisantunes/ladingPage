@@ -109,6 +109,9 @@
         align-items: center;
         margin-bottom: 2em;
         margin-left: 4%;
+        .servicesComponent{
+            margin-left: 8%;
+        }
     }
 }
 @media (max-width:480px) {

@@ -156,5 +156,6 @@ footer{
     }
     .footerItems{
         width: 100%;
+        text-align: center;
     }
 }
